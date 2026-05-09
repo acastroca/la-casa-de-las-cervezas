@@ -1,7 +1,7 @@
-FROM php:8.2-fpm
+FROM php:8.2-cli
 
 RUN apt-get update && apt-get install -y \
-    git curl libpng-dev libonig-dev libxml2-dev zip unzip nginx
+    git curl libpng-dev libonig-dev libxml2-dev zip unzip
 
 RUN docker-php-ext-install pdo_mysql mbstring exif pcntl bcmath gd
 
@@ -15,8 +15,6 @@ RUN composer install --no-dev --optimize-autoloader
 RUN chown -R www-data:www-data /var/www/html/storage \
     /var/www/html/bootstrap/cache
 
-COPY docker/nginx.conf /etc/nginx/sites-available/default
-
 EXPOSE 8080
 
-CMD service nginx start && php-fpm
+CMD php artisan serve --host=0.0.0.0 --port=8080
