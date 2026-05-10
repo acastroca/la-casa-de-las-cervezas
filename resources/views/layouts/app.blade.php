@@ -96,7 +96,7 @@
         class="fixed top-0 left-0 h-full w-72 bg-[#D49A36] text-white shadow-2xl z-50 transform -translate-x-full transition-transform duration-300 ease-in-out flex flex-col">
 
         <div class="flex items-center justify-between p-6 border-b border-[#B48124]">
-            <h2 class="text-xl font-serif font-bold tracking-widest uppercase">Comunidades</h2> <button id="btn-cerrar-menu"
+            <h2 class="text-xl font-serif font-bold tracking-widest uppercase">Menú</h2> <button id="btn-cerrar-menu"
                 class="text-white hover:text-yellow-200 transition transform hover:rotate-90 duration-300 focus:outline-none cursor-pointer">
                 <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8" fill="none" viewBox="0 0 24 24"
                     stroke="currentColor"> 
@@ -107,6 +107,22 @@
 
         <div class="flex-1 overflow-y-auto py-4 px-3 custom-scrollbar">
             
+            <div class="mb-4 border-b border-[#B48124] pb-4 md:hidden">
+                <ul class="space-y-1">
+                    <li>
+                        <a href="{{ route('catalogo') }}" class="block px-4 py-3 rounded-lg text-sm font-bold tracking-wider uppercase hover:bg-white hover:text-[#D49A36] transition-all duration-200">
+                            Catálogo
+                        </a>
+                    </li>
+                    <li>
+                        <a href="{{ route('mapa') }}" class="block px-4 py-3 rounded-lg text-sm font-bold tracking-wider uppercase hover:bg-white hover:text-[#D49A36] transition-all duration-200">
+                            Mapa
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
+            <h3 class="px-4 mb-2 text-xs font-semibold text-yellow-200 uppercase tracking-wider">Comunidades</h3>
 
             <ul class="space-y-1">
                 @foreach ($comunidades_menu as $comunidad)
