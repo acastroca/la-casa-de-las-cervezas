@@ -36,7 +36,7 @@ class ComunidadAutonomaSeeder extends Seeder
                 'historia' => 'En Asturias, la cultura cervecera ha convivido históricamente con la sidra, pero marcas como Mahou lograron una implantación profunda durante el siglo XX. La llegada de la cerveza industrial a ciudades como Gijón y Oviedo respondió al crecimiento de la minería y la siderurgia, sectores donde los trabajadores demandaban una bebida refrescante tras las duras jornadas. Aunque no contó con una fábrica de escala nacional propia durante décadas, la región desarrolló un paladar exigente, integrando la cerveza en su rica gastronomía de montaña y mar. Hoy, Asturias vive un renacimiento con microcervecerías que utilizan el agua pura de sus picos para crear recetas únicas.',
                 'imagen_logo' => 'logos/asturias.webp',
                 'pos_x' => 30,
-                'pos_y' => 12
+                'pos_y' => 9
             ],
             [
                 'id' => 4,
@@ -59,8 +59,8 @@ class ComunidadAutonomaSeeder extends Seeder
                 'nombre' => 'Cantabria',
                 'historia' => 'La Cervecera del Norte fundó Estrella del Norte en 1912 en Santander, aprovechando la pujanza portuaria de la ciudad y su conexión comercial con Europa. En una época de gran expansión industrial, la fábrica se convirtió en un símbolo de la modernidad cántabra, compitiendo con las grandes marcas del país. Durante décadas, sus instalaciones en el centro de la ciudad fueron un punto neurálgico para la economía local. Aunque la concentración del mercado llevó al cierre de la planta original, la memoria de Estrella del Norte sigue viva como el primer gran proyecto cervecero de Cantabria, sentando las bases para la actual y vibrante escena de cervezas artesanales de la región.',
                 'imagen_logo' => 'logos/cantabria.webp',
-                'pos_x' => 43,
-                'pos_y' => 11
+                'pos_x' => 39,
+                'pos_y' => 9
             ],
             [
                 'id' => 7,
@@ -91,7 +91,7 @@ class ComunidadAutonomaSeeder extends Seeder
                 'nombre' => 'Comunidad Valenciana',
                 'historia' => 'Turia nació en 1935 en Valencia gracias al espíritu emprendedor de ocho amigos que decidieron unir fuerzas para fabricar una cerveza con carácter propio. Tras el parón de la Guerra Civil, la marca resurgió con fuerza en los años 40, convirtiéndose en el refresco predilecto de las barracas y las fiestas populares. Su producto estrella, la Turia Märzen, destaca por su color tostado y notas de cereal, una rareza en un mercado dominado por las cervezas rubias. Este perfil distintivo ha permitido a la marca sobrevivir a los cambios de moda, siendo hoy un emblema de la revitalización del diseño y la gastronomía valenciana, muy ligada a la huerta y el clima mediterráneo.',
                 'imagen_logo' => 'logos/valencia.webp',
-                'pos_x' => 55,
+                'pos_x' => 57,
                 'pos_y' => 45
             ],
             [
@@ -139,16 +139,16 @@ class ComunidadAutonomaSeeder extends Seeder
                 'nombre' => 'Navarra',
                 'historia' => 'La historia cervecera de Navarra tiene sus raíces en las primeras fábricas industriales que surgieron en Pamplona a finales del siglo XIX, como La Cruz Blanca. Estas empresas nacieron para satisfacer a una burguesía creciente y a una población urbana que empezaba a frecuentar los cafés de la Plaza del Castillo. Aunque estas fábricas originales cerraron con el tiempo, Navarra ha mantenido su tradición a través de una de las escenas de cerveza artesana más potentes de España. La calidad del agua de los Pirineos y la tradición de cooperativismo agrícola han facilitado que los cerveceros navarros sean hoy referentes en innovación, exportando sus recetas especiales a mercados internacionales.',
                 'imagen_logo' => 'logos/navarra.webp',
-                'pos_x' => 58,
-                'pos_y' => 21
+                'pos_x' => 51,
+                'pos_y' => 16
             ],
             [
                 'id' => 17,
                 'nombre' => 'País Vasco',
                 'historia' => 'La Salve nació en 1886 en Bilbao, fundada por José Schumann y Cordés cerca de la ría, en un recodo donde los barcos solían saludar a la Virgen de Begoña. Esta ubicación estratégica permitió a la marca crecer junto a la pujante industria naval y siderúrgica vasca. Durante casi un siglo, fue la cerveza de referencia en Vizcaya hasta su desaparición en los años 70. Sin embargo, en 2014, un grupo de emprendedores recuperó la marca con el objetivo de devolver a Bilbao su fábrica de cerveza. La nueva etapa combina la receta histórica con una imagen moderna, vinculando de nuevo la cerveza a la innovación, la gastronomía y el diseño industrial vasco.',
                 'imagen_logo' => 'logos/pais-vasco.webp',
-                'pos_x' => 51,
-                'pos_y' => 17
+                'pos_x' => 46,
+                'pos_y' => 11
             ],
         ];
 
